@@ -36,9 +36,9 @@ public class Lesson {
         //                              0 1 2
         int[] numbers = new int[3]; // [0,0,0]
         int[] numbers2 = {1,2,3}; // альтернава
-        numbers[0] = 10; // [10, 0, 0]
-        numbers[1] = 100; // [10, 100, 0]
-        numbers[2] = 1000; // [10, 100, 1000]
+        numbers2[0] = 10; // [10, 0, 0]
+        numbers2[1] = 100; // [10, 100, 0]
+        numbers2[2] = 1000; // [10, 100, 1000]
 //        numbers[3] = 10000; // [10, 100, 1000] todo Ошибка!
 
         System.out.println(numbers.length);

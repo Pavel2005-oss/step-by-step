@@ -9,4 +9,9 @@ public class StepTracker {
         }
     }
 
+    public void addNewNumberStePerDay() {
+        System.out.println("Введите номер месяца от одного до двенадцати:  ");
+
+    }
+
 }

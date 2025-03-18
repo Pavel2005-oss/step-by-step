@@ -1,7 +1,7 @@
 package work_11_03_2025.arrays;
 
 /*
-Создайте массив целых чисел (например, длиной 10) и заполните его случайными значениями.
+Создайте массив целых чисел (например, длиной 1000) и заполните его случайными значениями.
 
 Найдите сумму всех элементов и среднее арифметическое.
 
@@ -10,22 +10,23 @@ package work_11_03_2025.arrays;
 
 public class ArraysOne {
         public static void main(String[] args) {
-            int[] numbers = new int[11]; //массив длиной в 10
-            numbers[0] = 1;
+            int[] numbers = new int[10]; //массив длиной в 10
+            numbers[0] = 100;
             numbers[1] = 2;
-            numbers[2] = 3;
+            numbers[2] = 300;
             numbers[3] = 4;
             numbers[4] = 5;
             numbers[5] = 6;
             numbers[6] = 7;
             numbers[7] = 8;
             numbers[8] = 9;
-            numbers[9] =10;
-//        numbers[10]=11; это я проверял почему 45 выдает
+            numbers[9] = 10;
+
+
             int sum = 0;
 
             for (int i = 0; i < 11 ; i++)
-                sum += i;//сумма массива
+                sum += numbers[i];//сумма массива
 
             float sumSr = (float) sum / 10;//среднее арифметиченское
 

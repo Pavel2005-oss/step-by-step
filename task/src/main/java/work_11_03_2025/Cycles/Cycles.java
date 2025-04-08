@@ -1,11 +1,12 @@
 package work_11_03_2025.Cycles;
 
 import java.util.Random;
-
+import java.util.Scanner;
 public class Cycles {
     public static void main(String[] args) {
         cycles();
         table();
+        Factorial();
 
     }
 
@@ -44,5 +45,24 @@ public class Cycles {
 
         }
     }
+    /**
+     * Считать целое число n.
+     * Используя цикл while или for, найдите n! (факториал).
+     *Выведите результат.
+     */
+
+    public static void Factorial() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите целое число n: ");
+        int n = scanner.nextInt();
+        long factorial = 1;
+
+        for (int i = 1; i <= n; i++) {
+            factorial *= i; // Умножаем текущее значение на i
+        }
+
+        System.out.println("Факториал " + n + " равен " + factorial);
+    }
+
 
 }

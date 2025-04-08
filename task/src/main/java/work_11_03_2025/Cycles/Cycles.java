@@ -7,6 +7,7 @@ public class Cycles {
         cycles();
         table();
         Factorial();
+        ReverseNumber();
 
     }
 
@@ -62,6 +63,26 @@ public class Cycles {
         }
 
         System.out.println("Факториал " + n + " равен " + factorial);
+    }
+
+    /**
+     * Считать целое число n.
+     * С помощью цикла while «развернуть» это число (например, 123 → 321).
+     *Вывести результат.
+     */
+
+
+    public static void ReverseNumber() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите целое число n: ");
+        int n = scanner.nextInt();
+        int reversedNumber = 0;
+        while (n != 0) {
+            int digit = n % 10;
+            reversedNumber = reversedNumber * 10 + digit;
+            n /= 10;
+        }
+        System.out.println("Перевернутое число: " + reversedNumber);
     }
 
 

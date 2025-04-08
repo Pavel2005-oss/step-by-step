@@ -27,7 +27,7 @@ public class Main {
                 int currency = scanner.nextInt();
                 converter.convert(moneyBeforeSalary, currency);
             } else if (command == 2) {
-                ... // Вызовите метод класса DinnerAdvisor
+                 // Вызовите метод класса DinnerAdvisor
             } else if (command == 3) {
                 moneyBeforeSalary = saveExpense(scanner, moneyBeforeSalary, expenses);
             } else if (command == 4) {

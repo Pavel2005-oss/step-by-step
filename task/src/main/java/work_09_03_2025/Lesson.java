@@ -1,5 +1,6 @@
 package work_09_03_2025;
 
+import work_03_04_2025.Person;
 import work_06_03_2025.Cat;
 
 import java.util.ArrayList;
@@ -29,7 +30,6 @@ public class Lesson {
 //
 //        List<Cat> cats = new ArrayList<>();
 //        cats.add(new Cat());
-        
 
         List<Integer> numbers = new ArrayList<>(); // [] -> размер 0
         for (int i=1; i<=100; i++){ //мин макс шаг

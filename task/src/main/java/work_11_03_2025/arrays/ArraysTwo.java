@@ -18,7 +18,6 @@ public class ArraysTwo {
             array[i] = i + 1;
         }
 
-
         //создание мин и макс переменных
         int min = array[0];
         int max = array[0];

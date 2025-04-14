@@ -15,7 +15,7 @@ public class ArrayFive {
     public static int countOccurrences(String[] arr, String target){
         int count = 0;
         for (String word : arr) {
-            if (word.equals(target)) {
+            if (word != null && word.equals(target)) {
                 count++;
             }
         }

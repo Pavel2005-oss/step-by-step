@@ -23,6 +23,7 @@ public class Task_3 {
             }
             System.out.println("Строка " + i + ": " + rowSum);
         }
+
         System.out.println("Суммы по столбцам:");
         for (int j = 0; j < cols; j++) {
             int colSum = 0;

@@ -8,25 +8,24 @@ package work_11_03_2025.arrays;
 Выведите результат на экран.
  */
 
+import java.util.Random;
+
 public class ArraysOne {
         public static void main(String[] args) {
-            int[] numbers = new int[10]; //массив длиной в 10
-            numbers[0] = 1;
-            numbers[1] = 2;
-            numbers[2] = 3;
-            numbers[3] = 4;
-            numbers[4] = 5;
-            numbers[5] = 6;
-            numbers[6] = 7;
-            numbers[7] = 8;
-            numbers[8] = 9;
-            numbers[9] = 10;
+            Random random = new Random();
 
+            int[] numbers = new int[10]; //массив длиной в 10
+
+            for (int i = 0; i < numbers.length ; i++ ){
+                int rand = random.nextInt();
+                numbers[i] = rand;
+            }
 
             int sum = 0;
 
-            for (int i = 0; i < 11 ; i++)
+            for (int i = 0; i < numbers.length ; i++) {
                 sum += numbers[i];//сумма массива
+            }
 
             float sumSr = (float) sum / 10;//среднее арифметиченское
 

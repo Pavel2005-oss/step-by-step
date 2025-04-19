@@ -1,22 +1,23 @@
 package work_13_03_2025;
 import java.util.Scanner;
 
-public class Task_3 {
+public class Task_3_solve {
     public static void main(String[] args) {
+        int[][] matrix = createAndFillMatrix();
+        rows(matrix);
+        cols(matrix);
+    }
 
-        // объявление сканера
+    private static int[][] createAndFillMatrix() {
         Scanner scanner = new Scanner(System.in);
 
-        // чтение параметров матрицы
         System.out.print("Введите число строк: ");
         int rows = scanner.nextInt();
         System.out.print("Введите число столбцов: ");
         int cols = scanner.nextInt();
 
-        //создание матрицы с заданным размером
         int[][] matrix = new int[rows][cols];
 
-        //задаем значения матрицы
         System.out.println("Введите элементы матрицы:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
@@ -24,25 +25,29 @@ public class Task_3 {
             }
         }
 
-        // вычисляем и выводим сумма по строкам
+        scanner.close();
+        return matrix;
+    }
+
+    private static void rows(int[][] matrix) {
         System.out.println("Суммы по строкам:");
-        for (int i = 0; i < rows; i++) {
+        for (int i = 0; i < matrix.length; i++) {
             int rowSum = 0;
-            for (int j = 0; j < cols; j++) {
+            for (int j = 0; j < matrix[i].length; j++) {
                 rowSum += matrix[i][j];
             }
             System.out.println("Строка " + i + ": " + rowSum);
         }
-        // вычисляем и выводим сумма по столбцам
+    }
+
+    private static void cols(int[][] matrix) {
         System.out.println("Суммы по столбцам:");
-        for (int j = 0; j < cols; j++) {
+        for (int j = 0; j < matrix[0].length; j++) {
             int colSum = 0;
-            for (int i = 0; i < rows; i++) {
+            for (int i = 0; i < matrix.length; i++) {
                 colSum += matrix[i][j];
             }
             System.out.println("Столбец " + j + ": " + colSum);
         }
-
-        scanner.close();
     }
 }

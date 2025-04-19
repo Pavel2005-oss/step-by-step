@@ -15,7 +15,6 @@ public class StepTracker {
     public void addNewNumberStepsPerDay() {
         System.out.println("Введите номер месяца (1-12):");
         int month = scanner.nextInt();
-        // Добавьте логику для добавления шагов в месяц и день
     }
 
     public void changeStepGoal() {

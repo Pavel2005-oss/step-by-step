@@ -1,20 +1,19 @@
 package work_13_03_2025;
 import java.util.Scanner;
 
-public class Task_1 {
+public class Task_1_solve {
 
     public static void main(String[] args) {
-        // создаем сканер для чтения строки из консоли
-        Scanner scanner = new Scanner(System.in);
+        String input = readInput();
+        String cleaned = cleanString(input);
 
-        // чтение введеной строки в переменную
-        System.out.print("Введите строку: ");
-        String input = scanner.nextLine();
+        boolean result = isPalindrome(cleaned);
 
-        // Убираем из строки все, кроме букв (латиница и кириллица)
-        // и приводим результат к нижнему регистру
-        String cleaned = input.replaceAll("[^a-zA-Zа-яА-Я]", "").toLowerCase();
+        printResult(result);
 
+    }
+
+    private static boolean isPalindrome(String cleaned) {
         // считаем, что строка изначально является палиндромом (true)
         boolean isPalindrome = true;
 
@@ -36,14 +35,36 @@ public class Task_1 {
             right--;
         }
 
+        return isPalindrome;
+
+    }
+
+    private static String readInput(){
+        // создаем сканер для чтения строки из консоли
+        Scanner scanner = new Scanner(System.in);
+
+        // чтение введеной строки в переменную
+        System.out.print("Введите строку: ");
+        String input = scanner.nextLine();
+
+        // закрываем сканер
+        scanner.close();
+        return input;
+    }
+
+    private static String cleanString(String input){
+        // Убираем из строки все, кроме букв (латиница и кириллица)
+        // и приводим результат к нижнему регистру
+        return input.replaceAll("[^a-zA-Zа-яА-Я]", "").toLowerCase();
+
+    }
+
+    private static void printResult(boolean isPalindrome){
         // Вывод результата
         if (isPalindrome) {
             System.out.println("Строка является палиндромом");
         } else {
             System.out.println("Строка не является палиндромом");
         }
-
-        // закрываем сканер
-        scanner.close();
     }
 }

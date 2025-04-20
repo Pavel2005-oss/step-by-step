@@ -9,6 +9,7 @@ public class Main {
             System.out.println("Введите команду: ");
             int command = scanner.nextInt();
         }
+
     }
     public static void printMenu(){
         System.out.println("(1) Ввод шагов за день.");
@@ -16,4 +17,5 @@ public class Main {
         System.out.println("(3) Вынести статистику за месяц.");
         System.out.println("(4) Выйти.");
     }
+
 }

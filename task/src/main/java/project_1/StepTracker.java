@@ -2,6 +2,7 @@ package project_1;
 import java.util.Scanner;
 
 public class StepTracker {
+
     Scanner scanner = new Scanner(System.in);
     MonthData[] monthData = new MonthData[12];
     int goalByStepsPerDay = 10000;
@@ -11,7 +12,7 @@ public class StepTracker {
             monthData[i] = new MonthData();
         }
     }
-
+//
     public void addNewNumberStepsPerDay() {
         System.out.println("Введите номер месяца (1-12):");
         int month = scanner.nextInt();

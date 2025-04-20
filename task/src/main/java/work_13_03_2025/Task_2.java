@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class Task_2 {
     public static void main(String[] args) {
+        // чтение и ввод данных в переменную
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число N: ");
         int N = scanner.nextInt();
 
+        //ищет простые числа от двух до переменной N
         System.out.println("Простые числа от 2 до " + N + ":");
         for (int i = 2; i <= N; i++) {
             if (isPrime(i)) {

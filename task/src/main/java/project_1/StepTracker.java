@@ -1,58 +1,44 @@
 package project_1;
 import java.util.Scanner;
-
+ArrayIndexOutOfBoundsException
 public class StepTracker {
-
     Scanner scanner = new Scanner(System.in);
-    MonthData[] monthData = new MonthData[12];
+    MonthData[] monthDatas = new MonthData[12];
     int goalByStepsPerDay = 10000;
 
+
+
     public StepTracker() {
-        for (int i = 0; i < monthData.length; i++) {
-            monthData[i] = new MonthData();
+        for (int i = 0; i < monthDatas.length; i++) {
+            monthDatas[i] = new MonthData();
         }
     }
-//
     public void addNewNumberStepsPerDay() {
         System.out.println("Введите номер месяца (1-12):");
         int month = scanner.nextInt();
+        System.out.println("Введите день месяца (1-30):");
+        int days = scanner.nextInt();
+        System.out.println("Введите кол-во пройденых шагов: ");
+        int step = scanner.nextInt();
+        monthDatas[month].days[days] = step;
+
     }
 
-    public void changeStepGoal() {
-        System.out.println("Введите новую цель шагов:");
-        int newGoal = scanner.nextInt();
-        if (newGoal > 0) {
-            goalByStepsPerDay = newGoal;
-        } else {
-            System.out.println("Цель должна быть больше 0");
-        }
-    }
+    public void printStatistic(StepTracker stepTracker, int month) {
+        int sum = stepTracker.monthDatas.length;
+        int max = stepTracker.maxSteps(month);
+        int daysCount = stepTracker.monthDatas[month - 1].days.length; // Предполагая, что days - это массив шагов
+        double average = (double) sum / daysCount;
+        double distance = Converter.convertStepsToKm(sum);
+        double calories = Converter.convertStepsToKilocalories(sum);
 
-    int sumStepsFromMonth(int month) {
-        int sum = 0;
-        int[] days = monthData[month - 1].day;
-        for (int steps : days) {
-            sum += steps;
-        }
-        return sum;
-    }
-    int maxSteps(int month) {
-        int max = 0;
-        int[] days = monthData[month -1].day;
-        for (int steps : days) {
-            if (steps > max) max = steps;
-        }
-        return max;
-    }
-    int bestSeries(int goal, int month) {
-        int currentSeries = 0, bestSeries = 0;
-        int[] days =monthData[month -1].day;
-        for (int steps : days) {
-            if (steps >= goal) currentSeries++;
-            else currentSeries = 0;
-            bestSeries = Math.max(bestSeries, currentSeries);
-        }
-        return bestSeries;
+        System.out.println("Статистика за месяц " + month + ":");
+        System.out.println("Сумма шагов: " + sum);
+        System.out.println("Максимальные шаги: " + max);
+        System.out.println("Среднее количество шагов: " + average);
+        System.out.println("Дистанция (в километрах): " + distance);
+        System.out.println("Калории: " + calories);
     }
 }
+
 

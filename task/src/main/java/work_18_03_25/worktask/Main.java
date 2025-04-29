@@ -14,7 +14,6 @@ public class Main {
 
         Converter converter = new Converter(78.5,88.7,0.75);
 
-        // Создайте объект класса DinnerAdvisor
         DinnerAdviser dinnerAdviser = new DinnerAdviser();
 
         while (true) {

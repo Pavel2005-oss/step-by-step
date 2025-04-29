@@ -5,7 +5,7 @@ package tasks.constructor;
 Создайте новый класс DiscountCalculator (англ. «калькулятор скидки»).
 У него не будет полей.
 Добавьте конструктор по умолчанию (без параметров).
-Добавьте метод calculateDiscount(double totalPrice, int age), который:
+Добавьте метод calculateDiscount(int age), который:
 Если age (возраст) ≥ 65, возвращает скидку 15% от totalPrice.
 Если 18 ≤ age < 65, скидка 5%.
 Если age < 18, скидка 10%.

@@ -14,6 +14,7 @@ public class MonthData {
     public int bestSeries(int goal) {
         int currentSeries = 0;
         int bestSeries = 0;
+
         for (int steps : days) {
             if (steps >= goal) {
                 currentSeries++;

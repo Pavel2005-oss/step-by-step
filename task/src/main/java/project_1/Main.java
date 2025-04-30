@@ -3,37 +3,53 @@ package project_1;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        printMenu();
-        while (true){
+        StepTracker stepTracker = new StepTracker();
+
+        while (true) {
+
+            printMenu();
+
             System.out.println("Введите команду: ");
             int command = scanner.nextInt();
 
+            switch (command) {
+                case 1:
+
+                    stepTracker.addNewNumberStepsPerDay();
+                    break;
+                case 2:
+
+                    stepTracker.changeStepGoal();
+                    break;
+                case 3:
+
+                    System.out.println("Введите месяц (1-12):");
+                    int month = scanner.nextInt();
+
+                    if (month >= 1 && month <= 12) {
+                        stepTracker.printStatistic(month);
+                    } else {
+                        System.out.println("Некорректный номер месяца");
+                    }
+                    break;
+                case 4:
+                    System.out.println("Выход из программы.");
+
+                    scanner.close();
+                    return;
+                default:
+                    System.out.println("Неизвестная команда. Попробуйте снова.");
+            }
         }
     }
-    public static void printMenu(){
-        System.out.println("(1) Ввод шагов за день.");
-        System.out.println("(2) Изменить цель шагов.");
-        System.out.println("(3) Вынести статистику за месяц.");
-        System.out.println("(4) Выйти.");
-    }
-// добавил возможность изменения шагов
-    /// надо приклееть ко 2 варианту изм. шагов
-    public void changeStepGoal() {
 
-        int goalByStepsPerDay = 10000;
+    public static void printMenu() {
 
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Введите новую цель шагов:");
-        int newGoal = scanner.nextInt();
-        if (newGoal > 0) {
-            goalByStepsPerDay = newGoal;
-        } else {
-            System.out.println("Цель должна быть больше 0");
-        }
-        scanner.close();
+        System.out.println("1. Ввод шагов за день.");
+        System.out.println("2. Изменить цель шагов.");
+        System.out.println("3. Вывести статистику за месяц.");
+        System.out.println("4. Выйти.");
     }
 }

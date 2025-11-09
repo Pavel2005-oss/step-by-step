@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="вывод числа от десяти до одного">
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_01_11_25/task_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="сумма чисел от 1 до 100 &#10;НАДО ПОВТОРИТЬ операторы присваивания">
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_01_11_25/task_5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +60,7 @@
     "last_opened_file_path": "D:/javaRepoz/step-by-step/task/pom.xml"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.task_4">
-    <configuration name="Cycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work_01_11_25.Cycle" />
-      <module name="task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="work_01_11_25.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.task_5">
     <configuration name="task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="work_01_11_25.task_1" />
       <module name="task" />
@@ -127,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work_01_11_25.task_5" />
+      <module name="task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work_01_11_25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.task_5" />
         <item itemvalue="Application.task_4" />
         <item itemvalue="Application.task_3" />
         <item itemvalue="Application.task_2" />
         <item itemvalue="Application.task_1" />
-        <item itemvalue="Application.Cycle" />
       </list>
     </recent_temporary>
   </component>
@@ -170,13 +169,22 @@
       <option name="project" value="LOCAL" />
       <updated>1762712559310</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="сумма чисел от 1 до 100 &#10;НАДО ПОВТОРИТЬ операторы присваивания">
+      <option name="closed" value="true" />
+      <created>1762713737901</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762713737901</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="домашнее задание 1" />
     <MESSAGE value="таблица умножения на 5 до 5*50&#10;если надо до 5*10 то в for меняем 1&lt;=50 на i&lt;=10" />
     <MESSAGE value="вывод числа от десяти до одного" />
-    <option name="LAST_COMMIT_MESSAGE" value="вывод числа от десяти до одного" />
+    <MESSAGE value="сумма чисел от 1 до 100 &#10;НАДО ПОВТОРИТЬ операторы присваивания" />
+    <option name="LAST_COMMIT_MESSAGE" value="сумма чисел от 1 до 100 &#10;НАДО ПОВТОРИТЬ операторы присваивания" />
   </component>
 </project>

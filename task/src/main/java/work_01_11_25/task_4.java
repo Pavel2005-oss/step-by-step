@@ -8,7 +8,7 @@ public class task_4 {
 Подсказка: Создайте переменную sum и прибавляйте к ней числа в цикле.
      */
     public static void main(String[] args) {
-        int sum =1;
+        int sum =0;
         for (int n = 1; n <= 100; n++ ){
             sum += n;  ///повторить Операторы присваивания
         }

@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="сумма чисел от 1 до 100 &#10;НАДО ПОВТОРИТЬ операторы присваивания">
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_01_11_25/task_5.java" afterDir="false" />
+    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="решил с подскажкой">
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_12_11_25/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_12_11_25/MyConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_12_11_25/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_16_11_25/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/work_01_11_25/task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work_01_11_25/task_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/work_01_11_25/task_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work_01_11_25/task_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Pavel2005-oss"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pavel2005-oss&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Pavel2005-oss/step-by-step.git",
-    "accountId": "447db35a-50c1-48f7-b1ed-6e882cdfea30"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pavel2005-oss/step-by-step.git&quot;,
+    &quot;accountId&quot;: &quot;447db35a-50c1-48f7-b1ed-6e882cdfea30&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="354B4HnEHqcf841TsSNrnRJeLgS" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,28 +51,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Cycle.executor": "Run",
-    "Application.Practical_tasks_1.executor": "Run",
-    "Application.task_1.executor": "Run",
-    "Application.task_2.executor": "Run",
-    "Application.task_3.executor": "Run",
-    "Application.task_4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/javaRepoz/step-by-step/task/pom.xml"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Cycle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practical_tasks_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/javaRepoz/step-by-step/task/pom.xml&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.task_5">
-    <configuration name="task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work_01_11_25.task_1" />
+}</component>
+  <component name="RunManager" selected="Application.MyConstructor">
+    <configuration name="MyConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work_12_11_25.MyConstructor" />
       <module name="task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work_01_11_25.*" />
+          <option name="PATTERN" value="work_12_11_25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.task_5" />
+        <item itemvalue="Application.MyConstructor" />
         <item itemvalue="Application.task_4" />
-        <item itemvalue="Application.task_3" />
         <item itemvalue="Application.task_2" />
-        <item itemvalue="Application.task_1" />
+        <item itemvalue="Application.task_5" />
+        <item itemvalue="Application.task_3" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762713737901</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="решил с подскажкой">
+      <option name="closed" value="true" />
+      <created>1762714478034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762714478034</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +201,7 @@
     <MESSAGE value="таблица умножения на 5 до 5*50&#10;если надо до 5*10 то в for меняем 1&lt;=50 на i&lt;=10" />
     <MESSAGE value="вывод числа от десяти до одного" />
     <MESSAGE value="сумма чисел от 1 до 100 &#10;НАДО ПОВТОРИТЬ операторы присваивания" />
-    <option name="LAST_COMMIT_MESSAGE" value="сумма чисел от 1 до 100 &#10;НАДО ПОВТОРИТЬ операторы присваивания" />
+    <MESSAGE value="решил с подскажкой" />
+    <option name="LAST_COMMIT_MESSAGE" value="решил с подскажкой" />
   </component>
 </project>

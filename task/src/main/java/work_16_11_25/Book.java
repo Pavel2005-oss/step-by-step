@@ -20,7 +20,7 @@ public class Book {
     private String author;
     private int pages;
 
-    public Book (String title, String author,int pages){
+    public Book(String title, String author, int pages) {
         this.author = author;
         this.title = title;
         this.pages = pages;
@@ -28,16 +28,10 @@ public class Book {
     }
 
     public void displayInfo() {
-        System.out.println("Название книги" + title +" Автор " + author + "Страниц" + pages );
+        System.out.println("Название книги " + title + " Автор " + author + "Страниц " + pages);
 
     }
-
-    public static void main(String[] args) {
-        Book book1 = new Book("Война и мир","Толстой Л.Н.", 1274);
-        Book book2 = new Book("Сапёр","Мазалов П.А.", 123);
-        Book book3 = new Book("Жопа","Иванов И.И.", 639);
-
-    }
-
-
 }
+
+
+

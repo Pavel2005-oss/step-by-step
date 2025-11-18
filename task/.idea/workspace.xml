@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="разбираюсь как вывести">
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_16_11_25/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_17_11_25/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_17_11_25/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_17_11_25/SchoolClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_17_11_25/Student.java" afterDir="false" />
+    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="занятие">
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_17_11_25/home/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work_16_11_25/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work_16_11_25/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763307665758</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="занятие">
+      <option name="closed" value="true" />
+      <created>1763400059233</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763400059233</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,6 +226,7 @@
     <MESSAGE value="решил с подскажкой" />
     <MESSAGE value="решение первой задачи &#10;проблема с методом displayInfo (не ясно как выводить информацию)" />
     <MESSAGE value="разбираюсь как вывести" />
-    <option name="LAST_COMMIT_MESSAGE" value="разбираюсь как вывести" />
+    <MESSAGE value="занятие" />
+    <option name="LAST_COMMIT_MESSAGE" value="занятие" />
   </component>
 </project>

@@ -18,10 +18,16 @@ public class Student {
     private int age;
     private double averageGrade;
 
-    public Student (String name, int age, double averageGrade){
+    public Student (String name, int age){
         this.name = name;
         this.age = age;
-        this.averageGrade = averageGrade;
     }
+
+
+
+
+
+
+
 
 }

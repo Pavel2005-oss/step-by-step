@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="занятие">
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_17_11_25/home/Student.java" afterDir="false" />
+    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/Task" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/LibraryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task2/DVD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/work_17_11_25/home/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work_17_11_25/home/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,27 +53,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Debug",
-    "Application.Book.executor": "Debug",
-    "Application.Cycle.executor": "Run",
-    "Application.MyConstructor.executor": "Run",
-    "Application.Practical_tasks_1.executor": "Run",
-    "Application.task_1.executor": "Run",
-    "Application.task_2.executor": "Run",
-    "Application.task_3.executor": "Run",
-    "Application.task_4.executor": "Run",
-    "Application.task_5.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/javaRepoz/step-by-step/task/pom.xml",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Book.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Cycle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MyConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practical_tasks_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/javaRepoz/step-by-step/task/pom.xml&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Application">
+}</component>
+  <component name="RunManager" selected="Application.Lesson">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="work_16_11_25.Application" />
       <module name="task" />
@@ -93,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work_12_11_25.MyConstructor" />
+    <configuration name="Lesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work_21_11_25.Lesson" />
       <module name="task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work_12_11_25.*" />
+          <option name="PATTERN" value="work_21_11_25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="work_01_11_25.task_2" />
+    <configuration name="MyConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work_12_11_25.MyConstructor" />
       <module name="task" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="work_01_11_25.*" />
+          <option name="PATTERN" value="work_12_11_25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.Book" />
         <item itemvalue="Application.MyConstructor" />
         <item itemvalue="Application.task_4" />
-        <item itemvalue="Application.task_2" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763400059233</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="создал конструктор с необходимыми параметрами в Student">
+      <option name="closed" value="true" />
+      <created>1763488754841</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763488754841</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -227,6 +243,7 @@
     <MESSAGE value="решение первой задачи &#10;проблема с методом displayInfo (не ясно как выводить информацию)" />
     <MESSAGE value="разбираюсь как вывести" />
     <MESSAGE value="занятие" />
-    <option name="LAST_COMMIT_MESSAGE" value="занятие" />
+    <MESSAGE value="создал конструктор с необходимыми параметрами в Student" />
+    <option name="LAST_COMMIT_MESSAGE" value="создал конструктор с необходимыми параметрами в Student" />
   </component>
 </project>

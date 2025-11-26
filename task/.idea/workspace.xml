@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/Lesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/Task" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/LibraryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task2/DVD.java" afterDir="false" />
+    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="дз">
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work_17_11_25/home/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work_17_11_25/home/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/LibraryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/LibraryItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task2/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/DVD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763488754841</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="дз">
+      <option name="closed" value="true" />
+      <created>1764105369508</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764105369508</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,6 +247,7 @@
     <MESSAGE value="разбираюсь как вывести" />
     <MESSAGE value="занятие" />
     <MESSAGE value="создал конструктор с необходимыми параметрами в Student" />
-    <option name="LAST_COMMIT_MESSAGE" value="создал конструктор с необходимыми параметрами в Student" />
+    <MESSAGE value="дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="дз" />
   </component>
 </project>

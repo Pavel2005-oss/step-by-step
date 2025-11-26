@@ -1,4 +1,4 @@
-package work_21_11_25.homeWork.task2;
+package work_21_11_25.homeWork.task1;
 /*
  * 4. Класс DVD extends LibraryItem:
  *    - private String director
@@ -10,10 +10,13 @@ package work_21_11_25.homeWork.task2;
  *    - конструктор
  *    - @Override calculateLateFee(int daysLate) - 20 рублей за день (дороже!)
  *    - метод canBorrow(int age) - проверяет возрастное ограничение
- *    - @Override displayInfo()
+ *
+ *
+ *
+ * - @Override displayInfo()
  *
  */
-public class DVD {
+public class DVD extends LibraryItem {
     private String director;
     private int durationMinutes;
     private String genre;

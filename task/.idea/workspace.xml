@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="дз">
-      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/Book.java" afterDir="false" />
+    <list default="true" id="27a34fc4-7049-4c15-ab49-5fd0d7ad48d3" name="Changes" comment="пара">
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/ReferenceBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/LibraryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/LibraryItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task2/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/DVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/work_21_11_25/homeWork/task1/DVD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764105369508</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="пара">
+      <option name="closed" value="true" />
+      <created>1764179650289</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764179650289</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,6 +257,7 @@
     <MESSAGE value="занятие" />
     <MESSAGE value="создал конструктор с необходимыми параметрами в Student" />
     <MESSAGE value="дз" />
-    <option name="LAST_COMMIT_MESSAGE" value="дз" />
+    <MESSAGE value="пара" />
+    <option name="LAST_COMMIT_MESSAGE" value="пара" />
   </component>
 </project>

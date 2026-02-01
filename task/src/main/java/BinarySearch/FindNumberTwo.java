@@ -31,14 +31,15 @@ public class FindNumberTwo {
         Arrays.sort(array);// упорядочил массив
         System.out.println("Отсортированный массив: "+Arrays.toString(array));
 
-        int target = random.nextInt(array.length);// элемент который мы будем искать
-        System.out.println("Случайный элемент: " + array[target]);
+        int targetIndex = random.nextInt(array.length);  // индекс который мы ищем
+        int target = array[targetIndex];                 // значение!
+        System.out.println("Ищем: " + target);
 
         /// БЛОК ТРИ
 
         int index = binarySearch(array, target);
         if (index != -1) {
-            System.out.println("Элемент найден: " + array[target]);
+            System.out.println("Элемент найден: " + target);
         } else {
             System.out.println("Элемент НЕ НАЙДЕН");
         }
@@ -48,10 +49,17 @@ public class FindNumberTwo {
         int high = array.length - 1;
 
         while (low <= high) {
-            int mid = (low + high) / 2;
+            int mid = low + (high - low) / 2;
             if (array[mid] == target) {
                 return mid;
             }
+            else if (array[mid] < target) {
+                low = mid + 1;
+            }
+            else if (array[mid] > target) {
+                high = mid - 1;
+            }
+
         }
         return -1;
     }
